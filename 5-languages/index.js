@@ -11,5 +11,5 @@ switch (language) {
         console.log('Guten Tag');
         break;
     default:
-        console.log('Добрый день')
+        console.log('Добрый день');
 }

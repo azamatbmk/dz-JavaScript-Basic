@@ -3,4 +3,4 @@ function distanceCalc(posLat, posLong, destLat, destLong) {
     return Math.sqrt(distance)
 }
 
-console.log(distanceCalc(13, 43, 13, 5))
+console.log(distanceCalc(13, 43, 13, 6))
