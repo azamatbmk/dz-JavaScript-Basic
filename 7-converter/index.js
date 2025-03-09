@@ -22,7 +22,7 @@ function converter (sum, currency, targetCurrency) {
             sum = sum;
             break;
         default:
-            sum = null        
+            sum = null;    
    }
    return sum;
 }

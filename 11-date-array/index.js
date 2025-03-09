@@ -44,4 +44,4 @@ function parseDate(arrayItem) {
 
 const validDates = dates.filter(item => parseDate(item))
 
-console.log(validDates)
+console.log(validDates);

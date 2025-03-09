@@ -22,4 +22,4 @@ function validateCard(cardNumber) {
     return sum % 10 === 0;
 }
 
-console.log(validateCard(card2))
+console.log(validateCard(card2));

@@ -19,4 +19,4 @@ function check(cryptoPass, chekPass) {
     return checked == cryptoPass ? true : false;
 }
 
-console.log(check('ssapdrow', 'password'))
+console.log(check('ssapdrow', 'password'));
