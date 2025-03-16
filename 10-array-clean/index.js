@@ -17,4 +17,4 @@ function deleteItem(arr, fn) {
     return emptyArr;
 }
 
-console.log(deleteItem(newArr, deleteOrNot))
+console.log(deleteItem(newArr, deleteOrNot));

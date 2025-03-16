@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <h1>Калькулятор</h1>
+        <div class="calcWrap">
+            <div class="calcInputs">
+                <input type="number" class="firstNum">
+                <input type="number" class="secondNum">
+                <div class="buttons">
+                    <button id="mult" onclick="clickInput(event)">x</button>
+                    <button id="divide" onclick="clickInput(event)">/</button>
+                    <button id="plus" onclick="clickInput(event)">+</button>
+                    <button id="minus" onclick="clickInput(event)">-</button>
+                </div>
+            </div>
+            <div class="solution"></div>
+        </div>
+
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
